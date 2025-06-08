@@ -1,5 +1,5 @@
 # Webpage
-A simple web service based on Ruby and Sinatra.  Enter the URL endpoint for the web service and receive the answer to the ultimate question of the universe.
+A single-page, static web site, based on nginx:alpine, that provides a littel ascii art.
 
 ### Build Container Locally
 `docker build -t my-webpage-image .`
