@@ -9,6 +9,9 @@ LABEL version="1.0.0"
 # Copy custom index.html to the nginx web root
 COPY index.html /usr/share/nginx/html/
 
+# Copy README.md to docs folder
+COPY README.md /docs/
+
 # Expose port 80 for web traffic
 EXPOSE 80
 
