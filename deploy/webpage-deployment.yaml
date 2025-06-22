@@ -14,8 +14,7 @@ spec:
         app: webpage
     spec:
       containers:
-        - image: 
-        jayehicks/webpage
+        - image: jayehicks/webpage
           name: webpage
           ports:
             - containerPort: 80
